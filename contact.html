@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Divya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="sidebar sidebarGo">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="intro.html">My Intro</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="hamburger">
+    <img class="ham" src="ham.png" alt="">
+    <img class="cross" src="cross.png" alt="">
+</div>
+
+<div class="main">
+    <div class="contactform">
+        <h1>Contact Me</h1>
+
+        <form action="https://formsubmit.co/divyachoudhary2023@gmail.com" method="POST">
+            <input type="hidden" name="_captcha" value="false">
+
+            <div class="mb-3">
+                <label>Your Name</label>
+                <input class="form-control" type="text" name="name" required>
+            </div>
+
+            <div class="mb-3">
+                <label>Email</label>
+                <input class="form-control" type="email" name="email" required>
+            </div>
+
+            <div class="mb-3">
+                <label>Phone</label>
+                <input class="form-control" type="text" name="phone">
+            </div>
+
+            <div class="mb-3">
+                <label>Message</label>
+                <input class="form-control" type="text" name="message" required>
+            </div>
+
+            <button class="btn" type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
